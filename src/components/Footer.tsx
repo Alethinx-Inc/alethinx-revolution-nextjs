@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export function Footer() {
   return (
-    <footer className="border-t border-[#902DCE]/10 bg-[#08021a] px-6 py-16">
+    <footer className="border-t border-[#902DCE]/10 bg-[#08021a] px-6 py-16 pb-20">
       <div className="mx-auto max-w-6xl">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           <div>
@@ -8,9 +10,11 @@ export function Footer() {
               Products
             </h4>
             <div className="flex flex-col gap-2">
-              {["Alethinx AI", "Sophynx", "Autopilot", "Logynx", "Masoryx"].map((p) => (
-                <span key={p} className="text-sm text-white/40">{p}</span>
-              ))}
+              <a href="https://app.alethinx.ai" className="text-sm text-white/40 hover:text-white/60">Alethinx AI</a>
+              <a href="https://sophynx.alethinx.ai" className="text-sm text-white/40 hover:text-white/60">Sophynx</a>
+              <span className="text-sm text-white/40">Autopilot</span>
+              <span className="text-sm text-white/40">Logynx</span>
+              <span className="text-sm text-white/40">Masoryx</span>
             </div>
           </div>
           <div>
@@ -18,19 +22,18 @@ export function Footer() {
               Company
             </h4>
             <div className="flex flex-col gap-2">
-              {["About", "Careers", "Press", "Contact"].map((p) => (
-                <span key={p} className="text-sm text-white/40">{p}</span>
-              ))}
+              <a href="mailto:hello@alethinx.ai" className="text-sm text-white/40 hover:text-white/60">Contact</a>
+              <span className="text-sm text-white/40">Security</span>
             </div>
           </div>
           <div>
             <h4 className="mb-4 font-mono-brand text-[10px] uppercase tracking-[0.2em] text-[#902DCE]">
-              Resources
+              Platform
             </h4>
             <div className="flex flex-col gap-2">
-              {["Documentation", "API", "Status", "Security"].map((p) => (
-                <span key={p} className="text-sm text-white/40">{p}</span>
-              ))}
+              <a href="https://app.alethinx.ai" className="text-sm text-white/40 hover:text-white/60">Start Free</a>
+              <a href="#pricing" className="text-sm text-white/40 hover:text-white/60">Pricing</a>
+              <a href="#architecture" className="text-sm text-white/40 hover:text-white/60">Architecture</a>
             </div>
           </div>
           <div>
@@ -38,9 +41,9 @@ export function Footer() {
               Legal
             </h4>
             <div className="flex flex-col gap-2">
-              {["Privacy Policy", "Terms of Service", "Cookie Policy"].map((p) => (
-                <span key={p} className="text-sm text-white/40">{p}</span>
-              ))}
+              <Link href="/privacy-policy" className="text-sm text-white/40 hover:text-white/60">Privacy Policy</Link>
+              <Link href="/terms-of-service" className="text-sm text-white/40 hover:text-white/60">Terms of Service</Link>
+              <Link href="/cookie-policy" className="text-sm text-white/40 hover:text-white/60">Cookie Policy</Link>
             </div>
           </div>
         </div>

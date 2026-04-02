@@ -14,6 +14,7 @@ const PRODUCT_CARDS = [
   { key: "gnosix", name: "GNOSIX\u2122", root: "GNOSIS", desc: "Real-Time Market Intelligence", badge: "building" as const },
   { key: "koinonyx", name: "KOINONYX\u2122", root: "KOINONIA", desc: "Enterprise API Platform", badge: "roadmap" as const },
   { key: "shamarix", name: "SHAMARIX\u2122", root: "SHAMAR", desc: "Autonomous Compliance Guardian", badge: "roadmap" as const },
+  { key: "agornyx", name: "AGORNYX\u2122", root: "AGORA", desc: "SBA Lender Marketplace", badge: "roadmap" as const },
 ];
 
 const BADGE_STYLES: Record<string, string> = {

@@ -8,10 +8,10 @@ const MOATS = [
   { icon: Clock, title: "Temporal Data Moat", desc: "Every day of compounding deal data creates an advantage no competitor can replicate by starting later." },
   { icon: Network, title: "Network Effect", desc: "More deals analyzed \u2192 smarter predictions \u2192 better outcomes \u2192 more deals. Self-reinforcing loop." },
   { icon: Lock, title: "OS Lock-In", desc: "Once Autopilot runs your business, switching costs become prohibitive. The AI knows your business better than you do." },
-  { icon: Brain, title: "Multi-Model Architecture", desc: "Orchestrating multiple specialized AI models creates compound intelligence no single model can match." },
+  { icon: Brain, title: "Layer 4 Bridge", desc: "The only architecture connecting deal intelligence to autonomous operations. Patent pending. No competitor bridges this gap." },
   { icon: Layers, title: "Full-Stack Integration", desc: "Find + Buy + Run + Data in one platform. No competitor offers the complete lifecycle." },
   { icon: Globe, title: "Biblical Brand Architecture", desc: "10 products with deep etymological roots create a cohesive brand narrative competitors can\u2019t replicate." },
-  { icon: Zap, title: "Speed to Market", desc: "First mover in AI-native M&A. Every day of market presence compounds the data and brand advantage." },
+  { icon: Zap, title: "First-Mover Trust", desc: "The ETA community is relational. First platform to earn deep trust owns it permanently. Every day of presence compounds the advantage." },
 ];
 
 export function Moats() {

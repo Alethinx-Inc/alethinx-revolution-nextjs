@@ -3,10 +3,10 @@
 import { AnimatedSection } from "@/components/ui/AnimatedSection";
 
 const COMPS = [
-  { name: "Harvey AI", category: "Legal AI", multiple: "40\u00d7+", raised: "$300M+", status: "Private" },
-  { name: "Cursor", category: "Code AI", multiple: "50\u00d7+", raised: "$400M+", status: "Private" },
-  { name: "Palantir", category: "Data Intelligence", multiple: "25\u00d7", raised: "Public", status: "NYSE: PLTR" },
-  { name: "Databricks", category: "Data + AI", multiple: "35\u00d7", raised: "$4B+", status: "Private" },
+  { name: "Harvey AI", category: "Legal AI", multiple: "40\u00d7+", valuation: "$8\u201311B" },
+  { name: "Cursor", category: "Code AI", multiple: "50\u00d7+", valuation: "$29\u201330B" },
+  { name: "Palantir", category: "Data Intelligence", multiple: "25\u00d7", valuation: "$300B+" },
+  { name: "Databricks", category: "Data + AI", multiple: "35\u00d7", valuation: "$62B" },
 ];
 
 const RESEARCH = [
@@ -57,7 +57,7 @@ export function Valuation() {
                   <th className="px-5 py-3 text-left font-mono-brand text-[10px] uppercase tracking-wider text-white/40">Company</th>
                   <th className="px-5 py-3 text-left font-mono-brand text-[10px] uppercase tracking-wider text-white/40">Category</th>
                   <th className="px-5 py-3 text-right font-mono-brand text-[10px] uppercase tracking-wider text-white/40">Multiple</th>
-                  <th className="hidden px-5 py-3 text-right font-mono-brand text-[10px] uppercase tracking-wider text-white/40 sm:table-cell">Raised</th>
+                  <th className="hidden px-5 py-3 text-right font-mono-brand text-[10px] uppercase tracking-wider text-white/40 sm:table-cell">Valuation</th>
                 </tr>
               </thead>
               <tbody>
@@ -66,7 +66,7 @@ export function Valuation() {
                     <td className="px-5 py-3 font-medium text-white/70">{c.name}</td>
                     <td className="px-5 py-3 text-white/40">{c.category}</td>
                     <td className="px-5 py-3 text-right font-mono-brand font-bold text-[#902DCE]">{c.multiple}</td>
-                    <td className="hidden px-5 py-3 text-right text-white/35 sm:table-cell">{c.raised}</td>
+                    <td className="hidden px-5 py-3 text-right text-white/35 sm:table-cell">{c.valuation}</td>
                   </tr>
                 ))}
                 <tr className="bg-[#902DCE]/5">

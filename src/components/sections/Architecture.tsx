@@ -29,6 +29,7 @@ const LAYERS = [
       { key: "autopilot", name: "Autopilot\u2122", desc: "AI CEO Operations" },
       { key: "koinonyx", name: "KOINONYX\u2122", desc: "Enterprise API" },
       { key: "shamarix", name: "SHAMARIX\u2122", desc: "Compliance" },
+      { key: "agornyx", name: "AGORNYX\u2122", desc: "Lender Marketplace" },
     ],
   },
   {
@@ -70,6 +71,8 @@ export function Architecture() {
                 <div className={`grid gap-3 ${
                   layer.items.length === 1
                     ? "grid-cols-1"
+                    : layer.items.length === 4
+                    ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
                     : "grid-cols-1 sm:grid-cols-3"
                 }`}>
                   {layer.items.map((item) => (

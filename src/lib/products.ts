@@ -297,6 +297,32 @@ export const products: Product[] = [
     engines: ["Compliance Monitor", "Covenant Tracker", "Regulatory Engine"],
     cta: { text: "Join Waitlist \u2192", url: "#cta" },
   },
+  {
+    key: "agornyx",
+    eyebrow: "LENDER MARKETPLACE",
+    name: "AGORNYX\u2122",
+    root: "AGORA \u2014 \u201CMarketplace\u201D (ACTS 17:17)",
+    badge: "roadmap",
+    tagline: "SBA lender marketplace connecting buyers with acquisition financing.",
+    desc: "AGORNYX connects acquisition buyers with SBA-qualified lenders \u2014 matching deal profiles to lender appetites, automating the loan application process, and tracking approvals through close.",
+    steps: [
+      { t: "Deal profile matching", d: "AI matches your acquisition profile to lender requirements and appetites." },
+      { t: "Application automation", d: "Pre-fills SBA loan applications with deal data from the Alethinx ecosystem." },
+      { t: "Multi-lender submission", d: "Submit to multiple qualified lenders simultaneously." },
+      { t: "Approval tracking", d: "Real-time tracking of application status across all submitted lenders." },
+    ],
+    benefits: [
+      "AI-matched lender recommendations",
+      "Automated SBA application process",
+      "Multi-lender simultaneous submission",
+      "Real-time approval tracking",
+    ],
+    pricing: [
+      { n: "Enterprise", p: "Contact Sales", d: "Revenue-share model with participating lenders" },
+    ],
+    engines: ["Lender Matcher", "Application Engine", "Approval Tracker"],
+    cta: { text: "Join Waitlist \u2192", url: "#cta" },
+  },
 ];
 
 export function getProduct(key: string): Product | undefined {
