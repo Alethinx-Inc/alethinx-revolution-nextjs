@@ -26,7 +26,7 @@ export function Autopilot() {
       <div className="mx-auto max-w-5xl">
         <AnimatedSection>
           <p className="font-mono-brand text-[10px] uppercase tracking-[0.2em] text-[#902DCE]">
-            Autopilot&trade; &middot; Patent Pending 64/024,148
+            Autopilot&trade; &middot; Patent Pending
           </p>
           <h2 className="mt-3 font-display text-[clamp(28px,4vw,44px)] font-black text-white">
             Your AI CEO. From Day 1.

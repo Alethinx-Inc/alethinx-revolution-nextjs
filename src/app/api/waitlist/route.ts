@@ -44,7 +44,7 @@ export async function POST(req: NextRequest) {
 <p style="line-height:1.6;">The compounding data moat starts Day 1. Every day earlier means a deeper advantage for you.</p>
 <a href="https://app.alethinx.ai" style="display:inline-block;margin-top:20px;padding:12px 24px;background:#902DCE;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;">Explore the Platform \u2192</a>
 <hr style="border:1px solid #1a1a2e;margin:24px 0;"/>
-<p style="font-size:11px;color:#666;">\u00a9 2026 Alethinx, Inc. \u00b7 Patent Pending 64/024,148</p>
+<p style="font-size:11px;color:#666;">\u00a9 2026 Alethinx, Inc. \u00b7 Patent Pending</p>
 </div>`,
         }),
       }).catch(() => {});

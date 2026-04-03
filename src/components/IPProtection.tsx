@@ -41,7 +41,7 @@ export function IPProtection() {
         "background:#902DCE;color:#fff;padding:8px 16px;border-radius:4px;font-weight:bold;font-size:14px;"
       );
       console.log(
-        "%c\u00a9 2026 Alethinx, Inc. All rights reserved.\nPatent Pending: 64/024,148\n\u26a0 WARNING: Unauthorized copying, reproduction, or distribution\nof this material is strictly prohibited and may result in\ncivil and criminal penalties.",
+        "%c\u00a9 2026 Alethinx, Inc. All rights reserved.\nPatent Pending\n\u26a0 WARNING: Unauthorized copying, reproduction, or distribution\nof this material is strictly prohibited and may result in\ncivil and criminal penalties.",
         "color:#999;font-size:11px;"
       );
     } catch {}
@@ -58,7 +58,7 @@ export function IPProtection() {
     <div className="fixed bottom-0 left-0 right-0 z-[9999] border-t border-[#902DCE]/10 bg-[#08021a]/95 px-4 py-2 backdrop-blur-sm">
       <p className="text-center font-mono-brand text-[8px] uppercase tracking-[0.1em] text-white/30">
         &copy; 2026 Alethinx, Inc. &middot; ALETHINX&trade; SOPHYNX&trade;
-        LOGYNX&trade; MASORYX&trade; &middot; Patent Pending 64/024,148 &middot;
+        LOGYNX&trade; MASORYX&trade; &middot; Patent Pending &middot;
         All Rights Reserved
       </p>
     </div>

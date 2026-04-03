@@ -3,7 +3,7 @@
 import { AnimatedSection } from "@/components/ui/AnimatedSection";
 
 const STATS = [
-  { value: "Patent Pending", label: "64/024,148" },
+  { value: "Patent", label: "PENDING" },
   { value: "39/39", label: "QA GREEN" },
   { value: "4", label: "LIVE DOMAINS" },
 ];

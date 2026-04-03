@@ -492,7 +492,7 @@ export default function DemoPage() {
         {/* Disclaimer */}
         <p className="mt-20 text-center font-[var(--font-dm-mono)] text-[7px] uppercase tracking-[0.12em] text-white/8">
           Demo uses simulated deal data for illustration &middot; Actual analysis
-          powered by multi-model AI &middot; Patent Pending 64/024,148 &middot;
+          powered by multi-model AI &middot; Patent Pending &middot;
           &copy; 2026 Alethinx, Inc.
         </p>
       </div>

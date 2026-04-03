@@ -23,7 +23,7 @@ export function Hero() {
         {/* Eyebrow */}
         <AnimatedSection delay={0}>
           <p className="mb-6 font-mono-brand text-[10px] uppercase tracking-[0.2em] text-[#902DCE]">
-            Patent Pending 64/024,148 &middot; Alethinx, Inc. &middot; McKinney,
+            Patent Pending &middot; Alethinx, Inc. &middot; McKinney,
             Texas
           </p>
         </AnimatedSection>

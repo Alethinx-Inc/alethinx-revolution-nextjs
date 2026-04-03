@@ -4,7 +4,7 @@ import { AnimatedSection } from "@/components/ui/AnimatedSection";
 import { Shield, Clock, Network, Lock, Brain, Layers, Globe, Zap } from "lucide-react";
 
 const MOATS = [
-  { icon: Shield, title: "Patent Protection", desc: "Provisional patent 64/024,148 covers the CLAW Architecture and memory handoff mechanism." },
+  { icon: Shield, title: "Patent Protection", desc: "Patent pending covers the CLAW Architecture and memory handoff mechanism." },
   { icon: Clock, title: "Temporal Data Moat", desc: "Every day of compounding deal data creates an advantage no competitor can replicate by starting later." },
   { icon: Network, title: "Network Effect", desc: "More deals analyzed \u2192 smarter predictions \u2192 better outcomes \u2192 more deals. Self-reinforcing loop." },
   { icon: Lock, title: "OS Lock-In", desc: "Once Autopilot runs your business, switching costs become prohibitive. The AI knows your business better than you do." },

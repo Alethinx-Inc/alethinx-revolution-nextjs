@@ -50,7 +50,7 @@ export function Footer() {
 
         <div className="mt-12 border-t border-white/5 pt-8">
           <p className="text-center font-mono-brand text-[9px] uppercase tracking-[0.12em] text-white/25">
-            &copy; 2026 Alethinx, Inc. &middot; Patent Pending 64/024,148
+            &copy; 2026 Alethinx, Inc. &middot; Patent Pending
             &middot; McKinney, Texas &middot; All rights reserved
           </p>
           <p className="mt-2 text-center font-mono-brand text-[8px] uppercase tracking-[0.1em] text-white/15">

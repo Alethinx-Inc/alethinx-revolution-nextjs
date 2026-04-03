@@ -30,7 +30,7 @@ const dmMono = DM_Mono({
 export const metadata: Metadata = {
   title: "ALETHINX AI REVOLUTION\u2122 \u2014 The Impossible Ecosystem",
   description:
-    "The world's first AI Agentic Autonomous Platform for M&A. Find, Buy, Run. Patent Pending 64/024,148.",
+    "The world's first AI Agentic Autonomous Platform for M&A. Find, Buy, Run. Patent Pending.",
   robots: { index: false, follow: false },
   openGraph: {
     title: "ALETHINX AI REVOLUTION\u2122",

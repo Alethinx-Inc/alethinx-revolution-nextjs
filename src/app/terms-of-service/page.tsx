@@ -41,7 +41,7 @@ export default function TermsOfService() {
           </h2>
           <p>
             All content, trademarks, and intellectual property on this site are
-            owned by Alethinx, Inc. Patent Pending 64/024,148. Unauthorized
+            owned by Alethinx, Inc. Patent Pending. Unauthorized
             reproduction, distribution, or creation of derivative works is
             strictly prohibited.
           </p>
